@@ -1,0 +1,98 @@
+﻿  AConsole.cpp
+  AddCommand.cpp
+  AScheduler.cpp
+C:\Mac\Home\Documents\Ghee\CSOPESY-MCO\AddCommand.cpp(29,72): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Mac\Home\Documents\Ghee\CSOPESY-MCO\AddCommand.cpp(29,72): warning C4267:         with
+C:\Mac\Home\Documents\Ghee\CSOPESY-MCO\AddCommand.cpp(29,72): warning C4267:         [
+C:\Mac\Home\Documents\Ghee\CSOPESY-MCO\AddCommand.cpp(29,72): warning C4267:             _Ty=int
+C:\Mac\Home\Documents\Ghee\CSOPESY-MCO\AddCommand.cpp(29,72): warning C4267:         ]
+  BaseScreen.cpp
+  CommandPrinter.cpp
+  ConfigReader.cpp
+C:\Mac\Home\Documents\Ghee\CSOPESY-MCO\ConfigReader.cpp(95,37): warning C4101: 'e': unreferenced local variable
+C:\Mac\Home\Documents\Ghee\CSOPESY-MCO\ConfigReader.cpp(98,41): warning C4101: 'e': unreferenced local variable
+  ConsoleManager.cpp
+  CPUTick.cpp
+  DeclareCommand.cpp
+  FCFSScheduler.cpp
+  ForCommand.cpp
+  GlobalProcessQueue.cpp
+  GlobalScheduler.cpp
+  ICommand.cpp
+  IETThread.cpp
+  MainConsole.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(472,14): error C2672: 'std::construct_at': no matching overloaded function found
+  (compiling source file 'MainConsole.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(461,16):
+      could be '_Ty *std::construct_at(_Ty *const ,_Types ...) noexcept(<expr>)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(472,14):
+          the associated constraints are not satisfied
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(459,50):
+              'Process::Process': no overloaded function could convert all the argument types
+                  C:\Mac\Home\Documents\Ghee\CSOPESY-MCO\Process.h(41,2):
+                  could be 'Process::Process(int,String,int)'
+                      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(459,50):
+                      'Process::Process(int,String,int)': cannot convert argument 3 from 'std::string' to 'int'
+                          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(459,71):
+                          No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(459,50):
+                  while trying to match the argument list '(_Ty, std::string, std::string)'
+          with
+          [
+              _Ty=int
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(472,14):
+      the template instantiation context (the oldest one first) is
+          C:\Mac\Home\Documents\Ghee\CSOPESY-MCO\MainConsole.cpp(71,47):
+          see reference to function template instantiation 'std::shared_ptr<Process> std::make_shared<Process,int,std::string&,std::string&>(int &&,std::string &,std::string &)' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(2913,46):
+          see reference to function template instantiation 'std::_Ref_count_obj2<Process>::_Ref_count_obj2<_Ty,std::string&,std::string&>(_Ty &&,std::string &,std::string &)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(2100,18):
+          see reference to function template instantiation 'void std::_Construct_in_place<_Ty,int,std::string&,std::string&>(_Ty &,int &&,std::string &,std::string &) noexcept(false)' being compiled
+          with
+          [
+              _Ty=Process
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(476,61): error C2665: 'Process::Process': no overloaded function could convert all the argument types
+  (compiling source file 'MainConsole.cpp')
+      C:\Mac\Home\Documents\Ghee\CSOPESY-MCO\Process.h(41,2):
+      could be 'Process::Process(int,String,int)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(476,61):
+          'Process::Process(int,String,int)': cannot convert argument 3 from 'std::string' to 'int'
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(476,82):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(476,61):
+      while trying to match the argument list '(_Ty, std::string, std::string)'
+          with
+          [
+              _Ty=int
+          ]
+  
+  main_menu.cpp
+  MemoryManager.cpp
+C:\Mac\Home\Documents\Ghee\CSOPESY-MCO\MemoryManager.cpp(66,19): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Mac\Home\Documents\Ghee\CSOPESY-MCO\MemoryManager.cpp(117,35): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  PrintCommand.cpp
+  Process.cpp
+C:\Mac\Home\Documents\Ghee\CSOPESY-MCO\Process.cpp(109,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+C:\Mac\Home\Documents\Ghee\CSOPESY-MCO\FCFSScheduler.cpp(87,1): warning C4172: returning address of local variable or temporary 
+  Compiling...
+  RRScheduler.cpp
+  RRSchedulerWorker.cpp
+  SchedulerWorker.cpp
+  Screen.cpp
+  SleepCommand.cpp
+  SubtractCommand.cpp
+C:\Mac\Home\Documents\Ghee\CSOPESY-MCO\SubtractCommand.cpp(27,72): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Mac\Home\Documents\Ghee\CSOPESY-MCO\SubtractCommand.cpp(27,72): warning C4267:         with
+C:\Mac\Home\Documents\Ghee\CSOPESY-MCO\SubtractCommand.cpp(27,72): warning C4267:         [
+C:\Mac\Home\Documents\Ghee\CSOPESY-MCO\SubtractCommand.cpp(27,72): warning C4267:             _Ty=int
+C:\Mac\Home\Documents\Ghee\CSOPESY-MCO\SubtractCommand.cpp(27,72): warning C4267:         ]
+  Generating Code...
+C:\Mac\Home\Documents\Ghee\CSOPESY-MCO\RRScheduler.cpp(90,1): warning C4172: returning address of local variable or temporary 
